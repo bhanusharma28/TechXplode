@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Database Management";
+}
+<!-- Database Management Solution Card -->
+<div class="container py-5">
+    <h2 class="text-center mb-4">Database Management</h2>
+
+    <p class="lead text-center">
+        We offer robust database management solutions to ensure that your data is securely stored, easily accessible, and optimized for performance. Our team uses industry-leading technologies to handle complex data operations and provide seamless integration with your systems.
+    </p>
+
+    <h4 class="text-center mt-4">Our Database Management Services</h4>
+    <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">Database Design and Architecture</li>
+        <li class="list-group-item">Data Security and Backup Solutions</li>
+        <li class="list-group-item">Performance Optimization (SQL, NoSQL)</li>
+        <li class="list-group-item">Data Migration and Integration</li>
+        <li class="list-group-item">Cloud-Based Database Solutions (AWS, Azure)</li>
+    </ul>
+
+    <div class="text-center mt-5">
+        <h4>Technologies We Use</h4>
+        <div class="row justify-content-center">
+            <!-- First Row -->
+            <div class="col-4 mb-2 tech-icon-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png" class="img-fluid" alt="Microsoft SQL Server" width="180">
+                <span class="tech-name">Microsoft SQL Server</span>
+            </div>
+            <div class="col-4 mb-2 tech-icon-container">
+                <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" class="img-fluid" alt="MySQL" width="180">
+                <span class="tech-name">MySQL</span>
+            </div>
+            <div class="col-4 mb-2 tech-icon-container">
+                <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" class="img-fluid" alt="MongoDB" width="180">
+                <span class="tech-name">MongoDB</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <h4 class="text-center">Why Choose Us?</h4>
+        <p class="text-center">We ensure your database is managed efficiently, with a focus on performance, security, and scalability.</p>
+        <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item">✅ High Availability and Disaster Recovery</li>
+            <li class="list-group-item">✅ Optimized Queries for Performance</li>
+            <li class="list-group-item">✅ Regular Backups and Security Updates</li>
+            <li class="list-group-item">✅ Scalable Solutions for Growing Businesses</li>
+        </ul>
+    </div>
+
+    <div class="text-center mt-5">
+        <a asp-controller="home" asp-action="contact" class="btn btn-primary btn-lg">Get a Free Consultation</a>
+    </div>
+</div>
+
+<!-- CSS for Hover Effect -->
+<style>
+    .tech-icon-container {
+        position: relative;
+        text-align: center;
+    }
+
+    .tech-name {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px 10px;
+        font-size: 16px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .tech-icon-container:hover .tech-name {
+        opacity: 1;
+    }
+</style>

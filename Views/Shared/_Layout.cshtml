@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] TechXplode</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PortfolioFrontend.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color: #12192c;">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #00A8E8; font-weight: bold;">
+                    TechXplode
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 justify-content-md-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Service" asp-action="Index">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Testimonial">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Blogs">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <style>
+        .nav-link:hover {
+            color: #17a2b8 !important; /* Green hover effect */
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1030; /* Keeps navbar above other content */
+        }
+
+    </style>
+
+
+
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="py-4 text-white" style="background-color: #12192c;">
+        <div class="container">
+            <div class="text-center">
+                <div class="row">
+                    <div class="col-md-8 mb-3 text-start">
+                        <h5>TechXplode</h5>
+                        <p>Innovating the Future with Cutting-Edge Technology & Scalable Solutions</p>
+                        <p class="text-white-50">We are a team of passionate developers, designers, and strategists dedicated to building <strong>high-performance web applications, and enterprise software</strong>. Whether you're a startup or an enterprise, we bring <strong>scalability, security, and efficiency</strong> to your projects.</p>
+                        Email: <a href="mailto:support@techxplode.com" class="text-decoration-none">support@techxplode.com</a>
+                    </div>
+                    <div class="col-md-2 mb-3 text-start">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                            <li><a asp-controller="Service" asp-action="Index" class="text-white text-decoration-none">Services</a></li>
+                            <li><a asp-controller="Home" asp-action="Testimonial" class="text-white text-decoration-none">Testimonial</a></li>
+                            <li><a asp-controller="Home" asp-action="Blogs" class="text-white text-decoration-none">Blogs</a></li>
+                            <li><a asp-controller="Home" asp-action="Contact" class="text-white text-decoration-none">Contact</a></li>
+                            <li><a asp-controller="Home" asp-action="About" class="text-white text-decoration-none">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-start">
+                        <h5>Follow Us</h5>
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <hr class="bg-white">
+                <p class="mb-0">&copy; 2025 TechXplode Labs. All Rights Reserved. - <a asp-controller="Home" asp-action="Privacy" class="text-white text-decoration-none">Privacy</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- FontAwesome for Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>    
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

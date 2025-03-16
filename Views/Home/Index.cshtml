@@ -1,0 +1,139 @@
+﻿<style>   
+
+    .card {
+        background: rgba(255, 255, 255, 0.2); /* Light glassmorphism effect */
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+    .btn-primary {
+        background: linear-gradient(to right, #ff512f, #dd2476); /* Orange-Pink gradient */
+        border: none;
+    }
+
+    .btn-success {
+        background: linear-gradient(to right, #1e9600, #a8ff78); /* Green gradient */
+        border: none;
+    }
+
+
+</style>
+
+<div class="container text-center py-5">
+    <!-- Hero Section -->
+    <div class="mb-5">
+        <h1 class="fw-bold" style="text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);">Welcome to <span class="text-primary">TechXplode</span>!</h1>
+        <p class="lead text-muted">Innovating the Future with Cutting-Edge Technology & Scalable Solutions</p>
+        <a asp-controller="Service" asp-action="Index" class="btn btn-primary px-4 py-2 mt-3">Explore Our Services</a>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="container my-5">
+        <h2 class="fw-bold text-success">Who We Are</h2>
+        <p class="text-muted">We are a team of passionate developers, designers, and strategists dedicated to building <strong>high-performance web applications, and enterprise software</strong>. Whether you're a startup or an enterprise, we bring <strong>scalability, security, and efficiency</strong> to your projects.</p>
+    </div>
+
+    <!-- Business Solutions & Technology Expertise -->
+    <div class="container my-5">
+        <div class="row justify-content-center g-4 align-items-stretch">
+            <!-- Business Solutions -->
+            <div class="col-md-5">
+                <div class="card shadow-lg border-0 p-3 h-100">
+                    <h3 class="text-success text-start">💼 Business Solutions</h3>
+                    <ul class="list-unstyled text-start">
+                        <li>✅ <strong>E-Commerce Platforms:</strong> Shopify, WordPress, Custom Builds</li>
+                        <li>✅ <strong>Finance & Insurance Web Portals</strong></li>
+                        <li>✅ <strong>Healthcare Solutions:</strong> HIPAA Compliant Systems</li>
+                        <li>✅ <strong>ERP & CRM Custom Development</strong></li>
+                        <li>✅ <strong>Secure Payment Gateway Integration</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Technology Expertise -->
+            <div class="col-md-5">
+                <div class="card shadow-lg border-0 p-3 h-100">
+                    <h3 class="text-primary text-start">🛠️ Technology Expertise</h3>
+                    <ul class="list-unstyled text-start">
+                        <li>✅ <strong>Full-Stack Development:</strong> .NET, Angular, PHP, React</li>
+                        <li>✅ <strong>Mobile App Development:</strong> Flutter</li>
+                        <li>✅ <strong>Database Solutions:</strong> MSSQL, MySQL</li>
+                        <li>✅ <strong>API Development & Third-Party Integrations</strong></li>
+                        <li>✅ <strong>Cloud & DevOps:</strong> Azure, AWS</li>
+                        <li>✅ <strong>Performance & Security Optimization</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Key Features -->
+    <div class="container my-5">
+        <h2 class="fw-bold text-primary">What Makes Us Stand Out?</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-lg border-0 p-3 h-100 text-center">
+                    <h4>🚀 Scalable & Fast</h4>
+                    <p>We build <strong>lightning-fast</strong> applications that scale effortlessly with your business growth.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg border-0 p-3 h-100 text-center">
+                    <h4>🔐 Secure & Reliable</h4>
+                    <p>Security is our priority. We implement <strong>enterprise-grade security</strong> for your applications.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg border-0 p-3 h-100 text-center">
+                    <h4>🎯 Custom-Tailored Solutions</h4>
+                    <p>We design <strong>bespoke solutions</strong> that align with your business objectives.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Section -->
+    <div class="container my-5">
+        <h2 class="fw-bold text-danger">Why Choose Us?</h2>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <div class="p-3">
+                    <h4>🔍 Deep Expertise</h4>
+                    <p>Our team has years of experience in <strong>.NET, Angular, Cloud, and AI-powered systems</strong>.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3">
+                    <h4>🛠️ Modern Tech Stack</h4>
+                    <p>We use the latest frameworks and technologies for <strong>high-performance applications</strong>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <div class="p-3">
+                    <h4>🚀 Agile Development</h4>
+                    <p>We follow <strong>Agile & DevOps</strong> methodologies for faster and efficient project delivery.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3">
+                    <h4>📊 Data-Driven Approach</h4>
+                    <p>We analyze <strong>data insights</strong> to optimize your digital transformation journey.</p>
+                </div>
+            </div>
+        </<div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="container my-5">
+        <h2 class="fw-bold text-primary">Let's Build Something Amazing! 🚀</h2>
+        <p class="lead">Partner with us for your next big <strong>tech innovation</strong>.</p>
+        <a asp-controller="Home" asp-action="Contact" class="btn btn-success px-4 py-2">Get Started</a>
+    </div>
+</div>

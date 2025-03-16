@@ -1,0 +1,72 @@
+﻿<!-- Cloud Solutions Details Page -->
+<div class="container py-5">
+    <h2 class="text-center mb-4">Cloud Solutions</h2>
+
+    <p class="lead text-center">
+        Our Cloud Solutions empower businesses to scale, secure, and optimize their operations through the power of the cloud. We offer custom solutions for cloud storage, computing, and disaster recovery that are tailored to meet the needs of businesses in every sector.
+    </p>
+
+    <h4 class="text-center mt-4">Our Cloud Solutions Services</h4>
+    <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">Cloud Infrastructure Design and Implementation</li>
+        <li class="list-group-item">Cloud Storage and Backup Solutions</li>
+        <li class="list-group-item">Disaster Recovery and Business Continuity</li>
+        <li class="list-group-item">Cloud Security and Compliance</li>
+        <li class="list-group-item">Multi-Cloud and Hybrid Cloud Solutions</li>
+    </ul>
+
+    <div class="text-center mt-5">
+        <h4>Cloud Platforms We Work With</h4>
+        <div class="row justify-content-center">
+            <!-- First Row -->
+            <div class="col-3 mb-2 tech-icon-container">
+                <img src="https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg" class="img-fluid" alt="AWS" width="180">
+                <span class="tech-name">AWS</span>
+            </div>
+            <div class="col-3 mb-2 tech-icon-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/873/873107.png" class="img-fluid" alt="Microsoft Azure" width="180">
+                <span class="tech-name">Microsoft Azure</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <h4 class="text-center">Why Choose Our Cloud Solutions?</h4>
+        <p class="text-center">Our Cloud Solutions are designed to ensure scalability, security, and cost-efficiency while providing high performance and availability for your business operations.</p>
+        <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item">✅ Scalable and Flexible Infrastructure</li>
+            <li class="list-group-item">✅ Enhanced Security and Compliance</li>
+            <li class="list-group-item">✅ Cost Optimization and Resource Efficiency</li>
+            <li class="list-group-item">✅ 24/7 Support and Monitoring</li>
+        </ul>
+    </div>
+
+    <div class="text-center mt-5">
+        <a asp-controller="home" asp-action="contact" class="btn btn-primary btn-lg">Get a Free Consultation</a>
+    </div>
+</div>
+
+<!-- CSS for Hover Effect -->
+<style>
+    .tech-icon-container {
+        position: relative;
+        text-align: center;
+    }
+
+    .tech-name {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px 10px;
+        font-size: 16px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .tech-icon-container:hover .tech-name {
+        opacity: 1;
+    }
+</style>
