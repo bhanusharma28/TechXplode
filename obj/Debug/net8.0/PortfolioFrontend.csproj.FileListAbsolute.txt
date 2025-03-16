@@ -574,3 +574,10 @@ D:\Preparation\PortfolioFrontend - Copy\obj\Debug\net8.0\staticwebassets.upToDat
 D:\Preparation\PortfolioFrontend - Copy\obj\Debug\net8.0\Portfoli.EF19F814.Up2Date
 D:\Preparation\PortfolioFrontend - Copy\obj\Debug\net8.0\PortfolioFrontend.genruntimeconfig.cache
 D:\Preparation\PortfolioFrontend - Copy\obj\Debug\net8.0\ref\PortfolioFrontend.dll
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\web.config
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\appsettings.Development.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\appsettings.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\PortfolioFrontend.deps.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\PortfolioFrontend.runtimeconfig.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\PortfolioFrontend.staticwebassets.endpoints.json
+D:\Preparation\PortfolioFrontend - Copy\obj\Debug\net8.0\PortfolioFrontend.sourcelink.json
