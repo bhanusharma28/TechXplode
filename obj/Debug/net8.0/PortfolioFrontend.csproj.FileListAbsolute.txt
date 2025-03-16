@@ -581,3 +581,15 @@ D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\PortfolioFronten
 D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\PortfolioFrontend.runtimeconfig.json
 D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\PortfolioFrontend.staticwebassets.endpoints.json
 D:\Preparation\PortfolioFrontend - Copy\obj\Debug\net8.0\PortfolioFrontend.sourcelink.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\Output\web.config
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\web.config
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\appsettings.Development.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\appsettings.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\Output\appsettings.Development.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\Output\appsettings.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\Output\PortfolioFrontend.deps.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\Output\PortfolioFrontend.runtimeconfig.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\Output\PortfolioFrontend.staticwebassets.endpoints.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\PortfolioFrontend.deps.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\PortfolioFrontend.runtimeconfig.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Debug\net8.0\Output\Output\PortfolioFrontend.staticwebassets.endpoints.json

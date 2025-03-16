@@ -298,3 +298,9 @@ D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\appsett
 D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\PortfolioFrontend.deps.json
 D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\PortfolioFrontend.runtimeconfig.json
 D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\PortfolioFrontend.staticwebassets.endpoints.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\Output\web.config
+D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\Output\appsettings.Development.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\Output\appsettings.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\Output\PortfolioFrontend.deps.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\Output\PortfolioFrontend.runtimeconfig.json
+D:\Preparation\PortfolioFrontend - Copy\bin\Release\net8.0\Output\Output\Output\PortfolioFrontend.staticwebassets.endpoints.json

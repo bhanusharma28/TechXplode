@@ -12,8 +12,12 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color: #12192c;">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #00A8E8; font-weight: bold;">
+                @* <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #00A8E8; font-weight: bold;">
                     TechXplode
+                </a> *@
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/TechXplodeWebLogoNew.png" style="width: 200px; height: 60px; object-fit: cover;" />
+                </a>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,8 +87,8 @@
                         <ul class="list-unstyled">
                             <li><a href="#" class="text-white text-decoration-none">Home</a></li>
                             <li><a asp-controller="Service" asp-action="Index" class="text-white text-decoration-none">Services</a></li>
-                            <li><a asp-controller="Home" asp-action="Testimonial" class="text-white text-decoration-none">Testimonial</a></li>
-                            <li><a asp-controller="Home" asp-action="Blogs" class="text-white text-decoration-none">Blogs</a></li>
+                            @* <li><a asp-controller="Home" asp-action="Testimonial" class="text-white text-decoration-none">Testimonial</a></li>
+                            <li><a asp-controller="Home" asp-action="Blogs" class="text-white text-decoration-none">Blogs</a></li> *@
                             <li><a asp-controller="Home" asp-action="Contact" class="text-white text-decoration-none">Contact</a></li>
                             <li><a asp-controller="Home" asp-action="About" class="text-white text-decoration-none">About</a></li>
                         </ul>

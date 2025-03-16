@@ -85,6 +85,170 @@
       ]
     },
     {
+      "Route": "TechXplodeWebLogo.gf3mo3wldh.png",
+      "AssetFile": "TechXplodeWebLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:15:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gf3mo3wldh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8="
+        },
+        {
+          "Name": "label",
+          "Value": "TechXplodeWebLogo.png"
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeWebLogo.png",
+      "AssetFile": "TechXplodeWebLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:15:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8="
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeWebLogoNew.3pqbko36mq.png",
+      "AssetFile": "TechXplodeWebLogoNew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:21:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3pqbko36mq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0="
+        },
+        {
+          "Name": "label",
+          "Value": "TechXplodeWebLogoNew.png"
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeWebLogoNew.png",
+      "AssetFile": "TechXplodeWebLogoNew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:21:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.8955ydbf4z.css",
       "AssetFile": "css/site.css",
       "Selectors": [],

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+50lC08afYRb2fmgx9ix+KeuNGfdi/cDWgwbGcq4jHY=",
+  "Hash": "IfaRqwX2xgYVfxfnNKsA+tGtbVUkmBSArGUyFq1H55Q=",
   "Source": "PortfolioFrontend",
   "BasePath": "_content/PortfolioFrontend",
   "Mode": "Default",
@@ -1317,6 +1317,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeWebLogo.png",
+      "SourceId": "PortfolioFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\",
+      "BasePath": "_content/PortfolioFrontend",
+      "RelativePath": "TechXplodeWebLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gf3mo3wldh",
+      "Integrity": "JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TechXplodeWebLogo.png"
+    },
+    {
+      "Identity": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeWebLogoNew.png",
+      "SourceId": "PortfolioFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\",
+      "BasePath": "_content/PortfolioFrontend",
+      "RelativePath": "TechXplodeWebLogoNew#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3pqbko36mq",
+      "Integrity": "5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TechXplodeWebLogoNew.png"
     }
   ],
   "Endpoints": [
@@ -6401,6 +6443,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-OU1SCtmZ6dTkHGOxMHHO5xvc2FDoHdYktI+igcMS9rA="
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeWebLogo.gf3mo3wldh.png",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeWebLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:15:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gf3mo3wldh"
+        },
+        {
+          "Name": "label",
+          "Value": "TechXplodeWebLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8="
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeWebLogo.png",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeWebLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:15:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAGLRaAUWwGMk2JYpCO6hpOHKNx2TPfTbGETI9Wsn+8="
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeWebLogoNew.3pqbko36mq.png",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeWebLogoNew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:21:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3pqbko36mq"
+        },
+        {
+          "Name": "label",
+          "Value": "TechXplodeWebLogoNew.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0="
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeWebLogoNew.png",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeWebLogoNew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:21:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5//IhoYcrM5oRVLa1FuuJ+KWmX0Who3hJrX/hx51hT0="
         }
       ]
     }
