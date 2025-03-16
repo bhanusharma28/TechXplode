@@ -1,6 +1,12 @@
 D:\Preparation\PortfolioFrontend - Copy\Output\PortfolioFrontend.exe
+D:\Preparation\PortfolioFrontend - Copy\Output\Output\web.config
 D:\Preparation\PortfolioFrontend - Copy\Output\appsettings.Development.json
 D:\Preparation\PortfolioFrontend - Copy\Output\appsettings.json
+D:\Preparation\PortfolioFrontend - Copy\Output\Output\appsettings.Development.json
+D:\Preparation\PortfolioFrontend - Copy\Output\Output\appsettings.json
+D:\Preparation\PortfolioFrontend - Copy\Output\Output\PortfolioFrontend.deps.json
+D:\Preparation\PortfolioFrontend - Copy\Output\Output\PortfolioFrontend.runtimeconfig.json
+D:\Preparation\PortfolioFrontend - Copy\Output\Output\PortfolioFrontend.staticwebassets.endpoints.json
 D:\Preparation\PortfolioFrontend - Copy\Output\PortfolioFrontend.dll
 D:\Preparation\PortfolioFrontend - Copy\Output\PortfolioFrontend.runtimeconfig.json
 D:\Preparation\PortfolioFrontend - Copy\Output\PortfolioFrontend.pdb
