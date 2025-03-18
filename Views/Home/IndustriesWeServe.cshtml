@@ -2,7 +2,7 @@
     ViewBag.Title = "Industries We Serve";
 }
 
-<div class="container py-5 animated">
+<div class="container animated">
     <h2 class="text-center mb-4">Industries We Serve</h2>
 
     <p class="lead text-center">
@@ -29,12 +29,12 @@
         };
         }
 
-        @foreach (var industry in industries)
+        @foreach (var industry in industries.Select((value, index) => new { index, value }))
         {
             <div class="col-6 col-md-4 text-center mb-4">
-                <div class="industry-card" onclick="showDetails('@industry.Name', '@industry.Icon', '@industry.Description')">
-                    <img src="@industry.Icon" alt="@industry.Name">
-                    <h5>@industry.Name</h5>
+                <div class="industry-card heartbeat" style="animation-delay: @((industry.index % 5) * 0.2)s;" onclick="showDetails('@industry.value.Name', '@industry.value.Icon', '@industry.value.Description')">
+                    <img src="@industry.value.Icon" alt="@industry.value.Name">
+                    <h5>@industry.value.Name</h5>
                 </div>
             </div>
         }
@@ -63,6 +63,14 @@
             padding: 10px;
         }
 
+    /* Heartbeat effect */
+    .heartbeat {
+        animation: heartbeat 5s infinite;
+    }
+
+
+   
+
     .detail-popup {
         position: fixed;
         top: 50%;
@@ -80,7 +88,7 @@
     }
 
         .detail-popup.show {
-            display: block; /* Ensure it's visible before animation */
+            display: block; /* Ensure it's visible before animation starts */
             opacity: 1;
             transform: translate(-50%, -50%) scale(1);
         }

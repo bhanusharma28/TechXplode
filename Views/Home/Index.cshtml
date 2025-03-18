@@ -45,19 +45,17 @@
         }
 </style>
 
-<div class="container text-center py-5 animated">
+<div class="container text-center animated">
     <!-- Hero Section -->
     <div class="mb-5">
         <h1 class="fw-bold" style="text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);">Welcome to <span class="text-primary">TechXplode</span>!</h1>
         <p class="lead text-muted">Innovating the Future with Cutting-Edge Technology & Scalable Solutions</p>
+        <div class="image-container">
+            <img style="height:300px; width:300px;" src="~/computer.gif" alt="Tech Image 1">
+        </div>
         <a asp-controller="Service" asp-action="Index" class="btn btn-primary px-4 py-2 mt-3">Explore Our Services</a>
     </div>
-
-    <!-- Add a Technology-related Image -->
-    <div class="image-container">
-        <img src="https://cdn-icons-png.flaticon.com/512/9626/9626716.png" alt="Tech Image 1">
-    </div>
-
+            
     <!-- Introduction Section -->
     <div class="container my-5">
         <h2 class="fw-bold text-success">Who We Are</h2>
@@ -65,8 +63,14 @@
     </div>
 
     <!-- Add another Technology-related Image -->
-    <div class="image-container">
+    @* <div class="image-container">
         <img src="https://cdn-icons-png.flaticon.com/512/4727/4727424.png" alt="Tech Image 2">
+    </div> *@
+    @* <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/9626/9626716.png" alt="Tech Image 1">
+    </div> *@
+    <div class="image-container">
+        <img style="height:300px; width:300px;" src="~/business.gif" alt="Tech Image 1">
     </div>
 
     <!-- Business Solutions & Technology Expertise -->
@@ -108,8 +112,11 @@
     </div>
 
     <!-- Add Image for Tech Solutions -->
-    <div class="image-container">
+    @* <div class="image-container">
         <img src="https://cdn-icons-png.flaticon.com/512/12140/12140462.png" alt="Tech Image 3">
+    </div> *@
+    <div class="image-container">
+        <img style="height:300px; width:300px;" src="~/workspace.gif" alt="Tech Image 1">
     </div>
 
     <!-- Key Features -->
@@ -137,10 +144,12 @@
         </div>
     </div>
 
-    <div class="image-container">
+    @* <div class="image-container">
         <img src="https://cdn-icons-png.flaticon.com/512/6746/6746903.png" alt="Tech Image 3">
-    </div>  
-
+    </div>  *@ 
+    <div class="image-container">
+        <img style="height:300px; width:300px;" src="~/question.gif" alt="Tech Image 1">
+    </div>
     <!-- Why Choose Us Section -->
     <div class="container my-5">
         <h2 class="fw-bold text-danger">Why Choose Us?</h2>
@@ -173,10 +182,12 @@
             </div>
         </div>
 
-        <div class="image-container">
+        @* <div class="image-container">
             <img src="https://cdn-icons-png.flaticon.com/512/1046/1046560.png" alt="Tech Image 3">
+        </div> *@
+        <div class="image-container">
+            <img style="height:300px; width:300px;" src="~/base.gif" alt="Tech Image 3">
         </div>
-
         <!-- Industry Button Section -->
         <div class="container my-5">
             <h2 class="fw-bold text-primary">Explore by Industry</h2>
@@ -184,10 +195,12 @@
             <a asp-action="IndustriesWeServe" asp-controller="Home" class="btn btn-industry px-4 py-2">View Industry Solutions</a>
         </div>
 
-        <div class="image-container">
+        @* <div class="image-container">
             <img src="https://cdn-icons-png.flaticon.com/512/3281/3281345.png" alt="Tech Image 3">
+        </div> *@
+        <div class="image-container">
+            <img style="height:300px; width:300px;" src="~/management.gif" alt="Tech Image 3">
         </div>
-
         <!-- Our Process -->
         <div class="container my-5">
             <h2 class="fw-bold text-info">Our Proven Process</h2>
@@ -220,10 +233,12 @@
             </div>
         </div>
 
-        <div class="image-container">
+        @* <div class="image-container">
             <img src="https://cdn-icons-png.flaticon.com/512/9374/9374940.png" alt="Tech Image 3">
+        </div> *@
+        <div class="image-container">
+            <img style="height:300px; width:300px;" src="~/contact.gif" alt="Tech Image 1">
         </div>
-
         <!-- Call to Action -->
         <div class="container my-5">
             <h2 class="fw-bold text-primary">Let's Build Something Amazing! 🚀</h2>

@@ -8,143 +8,163 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PortfolioFrontend.styles.css" asp-append-version="true" />
     <style>
+        /* Loader Style */
         #loading {
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 9999;
+            display: none; /* Initially hidden */
         }
+
+        /* Apply blur effect only to the content (not the loader) */
+        body.loading .content {
+            filter: blur(5px); /* Adjust blur level */
+            pointer-events: none; /* Prevent user interaction */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
     </style>
 </head>
 <body>
     <!-- Loading animation -->
-    <div id="loading" style="display:none;">
-        <img src="~/circuit-board.gif" alt="Loading..." />
+    <div id="loading">
+        <img style="height:200px; width:200px;" src="~/circuitboard.gif" alt="Loading..." />
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            // Show loading animation on page load
-            $("#loading").show();
-
-            // Hide loading animation once page is fully loaded
-            $(window).on('load', function () {
-                $("#loading").hide();
-            });
-        });
-    </script>
-
-
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color: #12192c;">
-            <div class="container-fluid">
-                @* <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #00A8E8; font-weight: bold;">
-                    TechXplode
-                </a> *@
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="margin-left: -30px; margin-bottom:-10px; margin-top:-10px;">
-                    <img src="~/TechXplodeWebLogoNew.png" style="width: 200px; height: 60px; object-fit: cover;" />
-                </a>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1 justify-content-md-end">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Service" asp-action="Index">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="IndustriesWeServe">Industries</a>
-                        </li>
-                        @* <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Testimonial">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Blogs">Blogs</a>
-                        </li> *@
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="About">About</a>
-                        </li>                       
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <style>
-        .nav-link:hover {
-            color: #17a2b8 !important; /* Green hover effect */
-        }
-
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1030; /* Keeps navbar above other content */
-        }
-
-    </style>
-
-
-
-    <div class="container-fluid">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="py-4 text-white" style="background-color: #12192c;">
-        <div class="container">
-            <div class="text-center">
-                <div class="row">
-                    <div class="col-md-8 mb-3 text-start">
-                        <a asp-area="" asp-controller="Home" asp-action="Index" style="margin-left: -30px; margin-bottom:-10px; margin-top:-10px;">
-                            <img src="~/TechXplodeWebLogoNew.png" style="width: 200px; height: 60px; object-fit: cover;" />
-                        </a>
-                        <p>Innovating the Future with Cutting-Edge Technology & Scalable Solutions</p>
-                        <p class="text-white-50">We are a team of passionate developers, designers, and strategists dedicated to building <strong>high-performance web applications, and enterprise software</strong>. Whether you're a startup or an enterprise, we bring <strong>scalability, security, and efficiency</strong> to your projects.</p>
-                        Email: <a href="mailto:techxplode@gmail.com" class="text-decoration-none">techxplode@gmail.com</a>
-                    </div>
-                    <div class="col-md-2 mb-3 text-start">
-                        <h5>Quick Links</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
-                            <li><a asp-controller="Service" asp-action="Index" class="text-white text-decoration-none">Services</a></li>
-                            <li><a asp-controller="Home" asp-action="IndustriesWeServe" class="text-white text-decoration-none">Industries</a></li>
-                            @* <li><a asp-controller="Home" asp-action="Testimonial" class="text-white text-decoration-none">Testimonial</a></li>
-                            <li><a asp-controller="Home" asp-action="Blogs" class="text-white text-decoration-none">Blogs</a></li> *@
-                            <li><a asp-controller="Home" asp-action="Contact" class="text-white text-decoration-none">Contact</a></li>
-                            <li><a asp-controller="Home" asp-action="About" class="text-white text-decoration-none">About</a></li>
+    <div class="content">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color: #12192c;">
+                <div class="container-fluid">
+                    @* <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #00A8E8; font-weight: bold;">
+                        TechXplode
+                    </a> *@
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="margin-left: -30px; margin-bottom:-10px; margin-top:-10px;">
+                        <img src="~/TechXplodeWebLogoNew.png" style="width: 200px; height: 60px; object-fit: cover;" />
+                    </a>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1 justify-content-md-end">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Service" asp-action="Index">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="IndustriesWeServe">Industries</a>
+                            </li>
+                            @* <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Testimonial">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Blogs">Blogs</a>
+                            </li> *@
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                            </li>                       
                         </ul>
                     </div>
-                    <div class="col-md-2 text-start">
-                        <h5>Follow Us</h5>
-                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
                 </div>
-                <hr class="bg-white">
-                <p class="mb-0">&copy; 2025 TechXplode Labs. All Rights Reserved. - <a asp-controller="Home" asp-action="Privacy" class="text-white text-decoration-none">Privacy</a></p>
-            </div>
+            </nav>
+        </header>
+
+        <style>
+            .nav-link:hover {
+                color: #17a2b8 !important; /* Green hover effect */
+            }
+
+            .navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 1030; /* Keeps navbar above other content */
+            }
+
+        </style>
+
+
+
+        <div class="container-fluid" style="margin-top:100px;">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
         </div>
-    </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                // Add 'loading' class to body to show loader and blur the background
+                $("body").addClass("loading");
+
+                // Show the loading animation immediately when the page starts loading
+                $("#loading").show();
+            });
+
+            $(window).on('load', function () {
+                // Once page has loaded, hide the loader and remove blur
+                setTimeout(function () {
+                    $("#loading").fadeOut("slow"); // Fade out loader
+                    $("body").removeClass("loading").addClass("loaded"); // Remove blur effect and trigger element animations
+                }, 1000); // Adjust the delay time for smoother effect
+            });
+        </script>
+
+        <footer class="py-4 text-white" style="background-color: #12192c;">
+            <div class="container">
+                <div class="text-center">
+                    <div class="row">
+                        <div class="col-md-8 mb-3 text-start">
+                            <a asp-area="" asp-controller="Home" asp-action="Index" style="margin-left: -30px; margin-bottom:-10px; margin-top:-10px;">
+                                <img src="~/TechXplodeWebLogoNew.png" style="width: 200px; height: 60px; object-fit: cover;" />
+                            </a>
+                            <p>Innovating the Future with Cutting-Edge Technology & Scalable Solutions</p>
+                            <p class="text-white-50">We are a team of passionate developers, designers, and strategists dedicated to building <strong>high-performance web applications, and enterprise software</strong>. Whether you're a startup or an enterprise, we bring <strong>scalability, security, and efficiency</strong> to your projects.</p>
+                            Email: <a href="mailto:techxplode@gmail.com" class="text-decoration-none">techxplode@gmail.com</a>
+                        </div>
+                        <div class="col-md-2 mb-3 text-start">
+                            <h5>Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                                <li><a asp-controller="Service" asp-action="Index" class="text-white text-decoration-none">Services</a></li>
+                                <li><a asp-controller="Home" asp-action="IndustriesWeServe" class="text-white text-decoration-none">Industries</a></li>
+                                @* <li><a asp-controller="Home" asp-action="Testimonial" class="text-white text-decoration-none">Testimonial</a></li>
+                                <li><a asp-controller="Home" asp-action="Blogs" class="text-white text-decoration-none">Blogs</a></li> *@
+                                <li><a asp-controller="Home" asp-action="Contact" class="text-white text-decoration-none">Contact</a></li>
+                                <li><a asp-controller="Home" asp-action="About" class="text-white text-decoration-none">About</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 text-start">
+                            <h5>Follow Us</h5>
+                            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <hr class="bg-white">
+                    <p class="mb-0">&copy; 2025 TechXplode Labs. All Rights Reserved. - <a asp-controller="Home" asp-action="Privacy" class="text-white text-decoration-none">Privacy</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <!-- FontAwesome for Icons -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -5,16 +5,17 @@
 }
 
 <div class="container mt-5">
-    <div class="row justify-content-center animated">
+    <div class="row justify-content-center animated">        
         <div class="col-lg-8">
             <h1 class="text-center mb-4 fw-bold">Contact Us</h1>
             <p class="lead text-muted text-center">
-                Have a question or need assistance? Fill out the form below, and we'll get back to you as soon as possible.
+                Have a question or need assistance? Fill out the form below, and we'll get back to you as soon as possible.<br />
+                <img style="height:300px; width:300px;" src="~/chat.gif" alt="Tech Image 3">
             </p>
-
+            
             <div class="card border-0 shadow-sm p-4">
                 <h2 class="h4 fw-semibold">Get in Touch</h2>
-                <form method="post" action="Contact">
+                <form id="contactForm" method="post" action="Contact">
                     <div class="mb-3">
                         <label for="name" class="form-label fw-semibold">Your Name</label>
                         <input type="text" id="name" name="Name" class="form-control" placeholder="Enter your name" required>
@@ -30,7 +31,7 @@
                         <textarea id="message" name="Message" class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    <button type="submit" class="btn btn-primary w-100" id="sendMessageBtn">Send Message</button>
                 </form>
             </div>
 
@@ -43,6 +44,11 @@
             </div>
         </div>
     </div>
+</div>
+
+<!-- Loading Animation -->
+<div id="loading" style="display: none;">
+    <img src="~/circuitboard.gif" alt="Loading..." />
 </div>
 
 <!-- Modal for Popup -->
@@ -64,7 +70,6 @@
     </div>
 </div>
 
-<!-- Popup Message Logic using JavaScript -->
 @section Scripts {
     @if (!string.IsNullOrEmpty(successMessage))
     {
@@ -82,4 +87,24 @@
             myModal.show();
         </script>
     }
+
+    <script>
+        // Show loading animation when the form is being submitted
+        $(document).ready(function () {
+            $("#contactForm").on("submit", function () {
+                // Show loader on submit
+                $("#loading").show();
+                // Disable the submit button to avoid multiple clicks
+                $("#sendMessageBtn").prop("disabled", true);
+            });
+
+            // Show the modal after page load (if there's a success or error message)
+            $(window).on('load', function () {
+                setTimeout(function () {
+                    $("#loading").fadeOut("slow"); // Hide loader after page loads
+                    $("body").removeClass("loading"); // Remove loading class
+                }, 1000);
+            });
+        });
+    </script>
 }

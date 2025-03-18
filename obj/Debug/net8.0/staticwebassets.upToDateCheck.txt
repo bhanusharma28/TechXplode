@@ -1,4 +1,11 @@
+wwwroot\backend.gif
+wwwroot\base.gif
+wwwroot\business.gif
+wwwroot\chat.gif
+wwwroot\circuitboard.gif
 wwwroot\circuit-board.gif
+wwwroot\computer.gif
+wwwroot\contact.gif
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
@@ -59,5 +66,10 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\management.gif
+wwwroot\map.gif
+wwwroot\question.gif
+wwwroot\tech-support.gif
 wwwroot\TechXplodeWebLogo.png
 wwwroot\TechXplodeWebLogoNew.png
+wwwroot\workspace.gif

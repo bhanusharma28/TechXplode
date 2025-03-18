@@ -13,8 +13,36 @@
       "PackagePath": "staticwebassets\\TechXplodeWebLogoNew.png"
     },
     {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\backend.gif",
+      "PackagePath": "staticwebassets\\backend.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\base.gif",
+      "PackagePath": "staticwebassets\\base.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\business.gif",
+      "PackagePath": "staticwebassets\\business.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\chat.gif",
+      "PackagePath": "staticwebassets\\chat.gif"
+    },
+    {
       "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\circuit-board.gif",
       "PackagePath": "staticwebassets\\circuit-board.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\circuitboard.gif",
+      "PackagePath": "staticwebassets\\circuitboard.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\computer.gif",
+      "PackagePath": "staticwebassets\\computer.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\contact.gif",
+      "PackagePath": "staticwebassets\\contact.gif"
     },
     {
       "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",
@@ -255,6 +283,26 @@
     {
       "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\management.gif",
+      "PackagePath": "staticwebassets\\management.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\map.gif",
+      "PackagePath": "staticwebassets\\map.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\question.gif",
+      "PackagePath": "staticwebassets\\question.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\tech-support.gif",
+      "PackagePath": "staticwebassets\\tech-support.gif"
+    },
+    {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\workspace.gif",
+      "PackagePath": "staticwebassets\\workspace.gif"
     },
     {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PortfolioFrontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
