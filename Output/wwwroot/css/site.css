@@ -29,3 +29,39 @@ body {
 .container-fluid {
     flex: 1;
 }
+
+/* Initial animation styles */
+.animated {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    visibility: hidden; /* Hide elements initially */
+}
+
+/* Show animation on page load or scroll */
+.animated.show {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+/* Add a click animation */
+.animated-click {
+    animation: clickBounce 0.3s ease-in-out;
+}
+
+/* Click bounce effect */
+@keyframes clickBounce {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+

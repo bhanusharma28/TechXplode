@@ -1,108 +1,88 @@
-﻿<style>
+﻿@{
+    ViewData["Title"] = "Services";
+}
+
+<style>
     .card {
-        background: rgba(255, 255, 255, 0.2); /* Light glassmorphism effect */
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s;
+        border: none; /* Remove border */
+        box-shadow: none; /* Remove shadow */
+        padding: 10px;
+        cursor: pointer; /* Indicate that the card is clickable */
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out; /* Transition for smooth animation */
     }
 
         .card:hover {
-            transform: scale(1.05);
+            transform: scale(1.05); /* Scale card on hover */
         }
 
-    .btn-primary {
-        background: linear-gradient(to right, #1e9600, #a8ff78); /* Orange-Pink gradient */
-        border: none;
+        .card .card-img-top {
+            max-height: 150px;
+            object-fit: contain;
+        }
+
+        .card .card-body {
+            padding: 10px;
+        }
+
+        .card .desktop-heading {
+            font-size: calc(1rem + 0.3vw);
+        }
+
+        .card .mobile-heading {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+    /* Animation for card click using transition */
+    .card-clicked {
+        transform: scale(1.5); /* Zoom in the card */
+        opacity: 0.8; /* Slight fade out */
+    }
+
+    p {
+        font-size: calc(0.9rem + 0.3vw);
     }
 </style>
 
-@{
-    ViewData["Title"] = "Our Services";
-}
-
-<div class="container mt-5">
-    <!-- Hero Section -->
+<div class="container mt-5 animated">
     <div class="text-center mb-5">
-        <h1 class="fw-bold text-primary">Our Services</h1>
+        <h1 class="fw-bold">Our Services</h1>
         <p class="lead">We specialize in Web and App Development using modern technologies to build scalable and efficient solutions.</p>
     </div>
 
-    <!-- Services Section -->
-    <div class="row text-center">
-        <!-- Web Development -->
-        <div class="col-md-4 mb-4">            
-            <div class="card shadow p-3 h-100" onclick="window.location.href='service/webdevelopment';">
-                <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" class="card-img-top" alt="App Development">
-                <div class="card-body">
-                    <h3 class="text-primary">Web Development</h3>
-                    <p>We build responsive and scalable websites using .NET, Angular, React, and PHP, tailored for businesses and enterprises.</p>
+    <div class="row g-2 g-md-3 text-center">
+        @foreach (var service in new[] {
+        new { Name = "Website Development", Image = "https://cdn-icons-png.flaticon.com/512/6132/6132221.png", Url = "service/webdevelopment", Desc = "We build responsive and scalable websites using .NET, Angular, React, and PHP." },
+        new { Name = "Application Development", Image = "https://iconape.com/wp-content/png_logo_vector/flutter-logo.png", Url = "service/appdevelopment", Desc = "We build robust mobile apps using Flutter and other cross-platform technologies." },
+        new { Name = "E-commerce Solutions", Image = "https://cdn.worldvectorlogo.com/logos/shopify.svg", Url = "service/ecommercesolutions", Desc = "We develop online stores using Shopify, WordPress, and custom solutions." },
+        new { Name = "Database Management", Image = "https://cdn-icons-png.flaticon.com/512/5968/5968364.png", Url = "service/databasemanagement", Desc = "We handle data with MSSQL Server and MySQL for high-performance applications." },
+        new { Name = "Cloud Solutions", Image = "https://cdn-icons-png.flaticon.com/512/873/873107.png", Url = "service/cloudsolutions", Desc = "We deploy scalable applications on Azure and AWS with best practices." },
+        new { Name = "SEO Optimization", Image = "https://cdn-icons-png.flaticon.com/512/2991/2991148.png", Url = "service/seooptimization", Desc = "We enhance your website’s visibility with proven SEO strategies." }
+        })
+        {
+            <div class="col-6 col-md-4">
+                <div class="card p-2 h-100" onclick="animateCardAndRedirect('@service.Url', this)">
+                    <div class="text-center">
+                        <img src="@service.Image" class="card-img-top img-fluid" alt="@service.Name">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="desktop-heading">@service.Name</h5>
+                        <p class="mobile-heading d-none d-md-block">@service.Desc</p> <!-- Hidden on mobile -->
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- App Development -->
-        <div class="col-md-4 mb-4">
-            <div class="card shadow p-3 h-100" onclick="window.location.href='service/appdevelopment';">
-                <img src="https://iconape.com/wp-content/png_logo_vector/flutter-logo.png" class="card-img-top" alt="App Development">
-                <div class="card-body">
-                    <h3 class="text-primary">App Development</h3>
-                    <p>We build robust mobile apps using Flutter and other cross-platform technologies.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- E-commerce Solutions -->
-        <div class="col-md-4 mb-4">
-            <div class="card shadow p-3 h-100" onclick="window.location.href='service/ecommercesolutions';">
-                <img src="https://cdn.worldvectorlogo.com/logos/shopify.svg" class="card-img-top" alt="E-commerce Solutions" style="height:380px;">
-                <div class="card-body">
-                    <h3 class="text-primary">E-commerce Solutions</h3>
-                    <p>We develop online stores using Shopify, WordPress, and custom solutions.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row text-center">
-        <!-- Database Management -->
-        <div class="col-md-4 mb-4">
-            <div class="card shadow p-3 h-100" onclick="window.location.href='service/databasemanagement';">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png" class="card-img-top" alt="Database Management">
-                <div class="card-body">
-                    <h3 class="text-primary">Database Management</h3>
-                    <p>We handle data with MSSQL Server and MySQL for high-performance applications.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Cloud Solutions -->
-        <div class="col-md-4 mb-4">
-            <div class="card shadow p-3 h-100" onclick="window.location.href='service/cloudsolutions';">
-                <img src="https://cdn-icons-png.flaticon.com/512/873/873107.png" class="card-img-top" alt="Azure Solutions">
-                <div class="card-body">
-                    <h3 class="text-primary">Cloud Solutions</h3>
-                    <p>We deploy scalable applications on Azure and AWS with best practices.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- SEO Optimization -->
-        <div class="col-md-4 mb-4">
-            <div class="card shadow p-3 h-100" onclick="window.location.href='service/seooptimization';">
-                <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" class="card-img-top" alt="SEO Optimization">
-                <div class="card-body">
-                    <h3 class="text-primary">SEO Optimization</h3>
-                    <p>We enhance your website’s visibility with proven SEO strategies.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Call to Action -->
-    <div class="text-center mt-5">
-        <h2 class="fw-bold">Ready to Start?</h2>
-        <p>Let’s discuss your project and build something amazing together.</p>
-        <a href="/Home/Contact" class="btn btn-primary px-4 py-2 mt-3">Contact Us</a>
+        }
     </div>
 </div>
+
+<script>
+    function animateCardAndRedirect(url, element) {
+        // Add the animation class to the clicked card
+        element.classList.add('card-clicked');
+
+        // Prevent page redirect immediately, wait for the animation to finish
+        setTimeout(function() {
+            window.location.href = url;  // Redirect to the service page
+        }, 500);  // Duration of the animation (same as transition duration in CSS)
+    }
+</script>

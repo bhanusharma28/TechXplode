@@ -1,35 +1,61 @@
-﻿<style>   
-
+﻿<style>
     .card {
-        background: rgba(255, 255, 255, 0.2); /* Light glassmorphism effect */
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        color: inherit;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
         .card:hover {
-            transform: scale(1.05);
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
     .btn-primary {
-        background: linear-gradient(to right, #ff512f, #dd2476); /* Orange-Pink gradient */
+        background: linear-gradient(to right, #ff512f, #dd2476);
         border: none;
     }
 
     .btn-success {
-        background: linear-gradient(to right, #1e9600, #a8ff78); /* Green gradient */
+        background: linear-gradient(to right, #1e9600, #a8ff78);
         border: none;
     }
 
+    .btn-industry {
+        background: linear-gradient(to right, #4b6cb7, #182848);
+        border: none;
+        transition: background 0.3s ease;
+        color: white;
+    }
 
+        .btn-industry:hover {
+            color: white;
+        }
+
+    .image-container {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
 </style>
 
-<div class="container text-center py-5">
+<div class="container text-center py-5 animated">
     <!-- Hero Section -->
     <div class="mb-5">
         <h1 class="fw-bold" style="text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);">Welcome to <span class="text-primary">TechXplode</span>!</h1>
         <p class="lead text-muted">Innovating the Future with Cutting-Edge Technology & Scalable Solutions</p>
         <a asp-controller="Service" asp-action="Index" class="btn btn-primary px-4 py-2 mt-3">Explore Our Services</a>
+    </div>
+
+    <!-- Add a Technology-related Image -->
+    <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/9626/9626716.png" alt="Tech Image 1">
     </div>
 
     <!-- Introduction Section -->
@@ -38,38 +64,52 @@
         <p class="text-muted">We are a team of passionate developers, designers, and strategists dedicated to building <strong>high-performance web applications, and enterprise software</strong>. Whether you're a startup or an enterprise, we bring <strong>scalability, security, and efficiency</strong> to your projects.</p>
     </div>
 
+    <!-- Add another Technology-related Image -->
+    <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/4727/4727424.png" alt="Tech Image 2">
+    </div>
+
     <!-- Business Solutions & Technology Expertise -->
     <div class="container my-5">
         <div class="row justify-content-center g-4 align-items-stretch">
             <!-- Business Solutions -->
             <div class="col-md-5">
-                <div class="card shadow-lg border-0 p-3 h-100">
-                    <h3 class="text-success text-start">💼 Business Solutions</h3>
+                <div class="card shadow-lg border-0 p-3 h-100" id="business-solutions">
+                    <h3 class="text-success text-start">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i> Business Solutions
+                    </h3>
                     <ul class="list-unstyled text-start">
-                        <li>✅ <strong>E-Commerce Platforms:</strong> Shopify, WordPress, Custom Builds</li>
-                        <li>✅ <strong>Finance & Insurance Web Portals</strong></li>
-                        <li>✅ <strong>Healthcare Solutions:</strong> HIPAA Compliant Systems</li>
-                        <li>✅ <strong>ERP & CRM Custom Development</strong></li>
-                        <li>✅ <strong>Secure Payment Gateway Integration</strong></li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>E-Commerce Platforms:</strong> Shopify, WordPress, Custom Builds</li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Finance & Insurance Web Portals</strong></li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Healthcare Solutions:</strong> HIPAA Compliant Systems</li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>ERP & CRM Custom Development</strong></li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Secure Payment Gateway Integration</strong></li>
                     </ul>
                 </div>
             </div>
 
             <!-- Technology Expertise -->
             <div class="col-md-5">
-                <div class="card shadow-lg border-0 p-3 h-100">
-                    <h3 class="text-primary text-start">🛠️ Technology Expertise</h3>
+                <div class="card shadow-lg border-0 p-3 h-100" id="tech-expertise">
+                    <h3 class="text-primary text-start">
+                        <i class="fa fa-cogs" aria-hidden="true"></i> Technology Expertise
+                    </h3>
                     <ul class="list-unstyled text-start">
-                        <li>✅ <strong>Full-Stack Development:</strong> .NET, Angular, PHP, React</li>
-                        <li>✅ <strong>Mobile App Development:</strong> Flutter</li>
-                        <li>✅ <strong>Database Solutions:</strong> MSSQL, MySQL</li>
-                        <li>✅ <strong>API Development & Third-Party Integrations</strong></li>
-                        <li>✅ <strong>Cloud & DevOps:</strong> Azure, AWS</li>
-                        <li>✅ <strong>Performance & Security Optimization</strong></li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Full-Stack Development:</strong> .NET, Angular, PHP, React</li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Mobile App Development:</strong> Flutter</li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Database Solutions:</strong> MSSQL, MySQL</li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>API Development & Third-Party Integrations</strong></li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Cloud & DevOps:</strong> Azure, AWS</li>
+                        <li><i class="fa fa-check-circle" aria-hidden="true"></i> <strong>Performance & Security Optimization</strong></li>
                     </ul>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Add Image for Tech Solutions -->
+    <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/12140/12140462.png" alt="Tech Image 3">
     </div>
 
     <!-- Key Features -->
@@ -77,63 +117,118 @@
         <h2 class="fw-bold text-primary">What Makes Us Stand Out?</h2>
         <div class="row g-4">
             <div class="col-md-4">
-                <div class="card shadow-lg border-0 p-3 h-100 text-center">
-                    <h4>🚀 Scalable & Fast</h4>
+                <div class="card shadow-lg border-0 p-3 h-100 text-center" id="scalable-fast">
+                    <h4><i class="fa fa-arrow-up" aria-hidden="true"></i> Scalable & Fast</h4>
                     <p>We build <strong>lightning-fast</strong> applications that scale effortlessly with your business growth.</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card shadow-lg border-0 p-3 h-100 text-center">
-                    <h4>🔐 Secure & Reliable</h4>
+                <div class="card shadow-lg border-0 p-3 h-100 text-center" id="secure-reliable">
+                    <h4><i class="fa fa-lock" aria-hidden="true"></i> Secure & Reliable</h4>
                     <p>Security is our priority. We implement <strong>enterprise-grade security</strong> for your applications.</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card shadow-lg border-0 p-3 h-100 text-center">
-                    <h4>🎯 Custom-Tailored Solutions</h4>
+                <div class="card shadow-lg border-0 p-3 h-100 text-center" id="custom-tailored">
+                    <h4><i class="fa fa-target" aria-hidden="true"></i> Custom-Tailored Solutions</h4>
                     <p>We design <strong>bespoke solutions</strong> that align with your business objectives.</p>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/6746/6746903.png" alt="Tech Image 3">
+    </div>  
+
     <!-- Why Choose Us Section -->
     <div class="container my-5">
         <h2 class="fw-bold text-danger">Why Choose Us?</h2>
         <div class="row text-center">
             <div class="col-md-6">
-                <div class="p-3">
-                    <h4>🔍 Deep Expertise</h4>
+                <div class="p-3" id="deep-expertise">
+                    <h4><i class="fa fa-search" aria-hidden="true"></i> Deep Expertise</h4>
                     <p>Our team has years of experience in <strong>.NET, Angular, Cloud, and AI-powered systems</strong>.</p>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="p-3">
-                    <h4>🛠️ Modern Tech Stack</h4>
+                <div class="p-3" id="modern-tech-stack">
+                    <h4><i class="fa fa-laptop" aria-hidden="true"></i> Modern Tech Stack</h4>
                     <p>We use the latest frameworks and technologies for <strong>high-performance applications</strong>.</p>
                 </div>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-6">
-                <div class="p-3">
-                    <h4>🚀 Agile Development</h4>
+                <div class="p-3" id="agile-development">
+                    <h4><i class="fa fa-refresh" aria-hidden="true"></i> Agile Development</h4>
                     <p>We follow <strong>Agile & DevOps</strong> methodologies for faster and efficient project delivery.</p>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="p-3">
-                    <h4>📊 Data-Driven Approach</h4>
+                <div class="p-3" id="data-driven">
+                    <h4><i class="fa fa-bar-chart" aria-hidden="true"></i> Data-Driven Approach</h4>
                     <p>We analyze <strong>data insights</strong> to optimize your digital transformation journey.</p>
                 </div>
             </div>
-        </<div>
-    </div>
+        </div>
 
-    <!-- Call to Action -->
-    <div class="container my-5">
-        <h2 class="fw-bold text-primary">Let's Build Something Amazing! 🚀</h2>
-        <p class="lead">Partner with us for your next big <strong>tech innovation</strong>.</p>
-        <a asp-controller="Home" asp-action="Contact" class="btn btn-success px-4 py-2">Get Started</a>
+        <div class="image-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/1046/1046560.png" alt="Tech Image 3">
+        </div>
+
+        <!-- Industry Button Section -->
+        <div class="container my-5">
+            <h2 class="fw-bold text-primary">Explore by Industry</h2>
+            <p class="lead">Tailored solutions for every industry!</p>
+            <a asp-action="IndustriesWeServe" asp-controller="Home" class="btn btn-industry px-4 py-2">View Industry Solutions</a>
+        </div>
+
+        <div class="image-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/3281/3281345.png" alt="Tech Image 3">
+        </div>
+
+        <!-- Our Process -->
+        <div class="container my-5">
+            <h2 class="fw-bold text-info">Our Proven Process</h2>
+            <p class="lead text-muted">We follow a streamlined, transparent process to ensure successful project delivery. Here's how we work:</p>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <h4>1. Discovery</h4>
+                        <p>We start by understanding your business goals, challenges, and requirements.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <h4>2. Design</h4>
+                        <p>Our designers create wireframes and prototypes that bring your vision to life.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <h4>3. Development</h4>
+                        <p>Our developers build and integrate the solution using the latest technologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3">
+                        <h4>4. Deployment</h4>
+                        <p>We launch the product and ensure smooth integration into your existing systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/9374/9374940.png" alt="Tech Image 3">
+        </div>
+
+        <!-- Call to Action -->
+        <div class="container my-5">
+            <h2 class="fw-bold text-primary">Let's Build Something Amazing! 🚀</h2>
+            <p class="lead">Partner with us for your next big <strong>tech innovation</strong>.</p>
+            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary px-4 py-2">Get in Touch</a>
+        </div>
     </div>
 </div>

@@ -1,0 +1,140 @@
+﻿@{
+    ViewBag.Title = "Industries We Serve";
+}
+
+<div class="container py-5 animated">
+    <h2 class="text-center mb-4">Industries We Serve</h2>
+
+    <p class="lead text-center">
+        We provide tailored digital solutions across various industries to help businesses thrive in the modern world.
+    </p>
+
+    <div class="row justify-content-center">
+        @{
+            var industries = new List<dynamic> {
+        new { Name = "Real Estate", Icon = "https://cdn-icons-png.flaticon.com/512/2238/2238337.png", Description = "We offer innovative digital solutions for the real estate industry, helping businesses streamline property management and enhance customer engagement." },
+        new { Name = "Healthcare", Icon = "https://cdn-icons-png.flaticon.com/512/2382/2382461.png", Description = "Our healthcare solutions improve patient care, streamline operations, and ensure compliance with industry standards." },
+        new { Name = "E-Commerce", Icon = "https://cdn-icons-png.flaticon.com/512/1162/1162499.png", Description = "We empower e-commerce businesses with scalable and user-friendly platforms to drive sales and customer satisfaction." },
+        new { Name = "Education", Icon = "https://cdn-icons-png.flaticon.com/512/906/906175.png", Description = "Our educational solutions enhance learning experiences with digital tools and platforms for students and educators." },
+        new { Name = "Finance", Icon = "https://cdn-icons-png.flaticon.com/512/781/781760.png", Description = "We provide secure and efficient financial solutions, enabling businesses to manage transactions and compliance effectively." },
+        new { Name = "Logistics", Icon = "https://cdn-icons-png.flaticon.com/512/9402/9402149.png", Description = "Our logistics solutions optimize supply chain operations, ensuring seamless transportation and inventory management." },
+        new { Name = "Travel & Tourism", Icon = "https://cdn-icons-png.flaticon.com/512/201/201623.png", Description = "We offer digital tools to enhance travel experiences and simplify tourism management." },
+        new { Name = "Automotive", Icon = "https://cdn-icons-png.flaticon.com/512/4662/4662011.png", Description = "Our automotive solutions drive innovation in manufacturing, sales, and vehicle management." },
+        new { Name = "Manufacturing", Icon = "https://cdn-icons-png.flaticon.com/512/2299/2299203.png", Description = "We streamline manufacturing processes with smart automation and data-driven solutions." },
+        new { Name = "Retail", Icon = "https://cdn-icons-png.flaticon.com/512/7845/7845682.png", Description = "We help retailers optimize their business with digital commerce and inventory solutions." },
+        new { Name = "Telecommunications", Icon = "https://cdn-icons-png.flaticon.com/512/9747/9747108.png", Description = "We support the telecommunications sector with scalable network and customer service solutions." },
+        new { Name = "Media & Entertainment", Icon = "https://cdn-icons-png.flaticon.com/512/2452/2452081.png", Description = "We create engaging digital experiences for the media and entertainment industry." },
+        new { Name = "Government", Icon = "https://cdn-icons-png.flaticon.com/512/6715/6715844.png", Description = "Our solutions enhance digital governance and public sector efficiency." },
+        new { Name = "Food & Beverage", Icon = "https://cdn-icons-png.flaticon.com/512/3075/3075977.png", Description = "We provide digital transformation services to the food and beverage industry." }
+        };
+        }
+
+        @foreach (var industry in industries)
+        {
+            <div class="col-6 col-md-4 text-center mb-4">
+                <div class="industry-card" onclick="showDetails('@industry.Name', '@industry.Icon', '@industry.Description')">
+                    <img src="@industry.Icon" alt="@industry.Name">
+                    <h5>@industry.Name</h5>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div id="industryDetail" class="detail-popup hidden">
+    <div class="detail-content">
+        <span class="close" onclick="closeDetails()">&times;</span>
+        <img id="detailIcon" src="" alt="Industry Icon" class="mb-3" style="max-width: 80px;">
+        <h5 id="detailTitle"></h5>
+        <p id="detailDescription"></p>
+    </div>
+</div>
+
+<style>
+    .industry-card {
+        cursor: pointer;
+        text-align: center;
+        padding: 15px;
+    }
+
+        .industry-card img {
+            max-width: 100px;
+            margin: auto;
+            padding: 10px;
+        }
+
+    .detail-popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.8);
+        background: white;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        text-align: center;
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        display: none; /* Initially hidden */
+    }
+
+        .detail-popup.show {
+            display: block; /* Ensure it's visible before animation */
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .detail-popup.hide {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(0.8);
+        }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .blurred-background::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        z-index: 999;
+    }
+</style>
+
+<script>
+    function showDetails(name, icon, description) {
+        let popup = document.getElementById('industryDetail');
+        document.getElementById('detailTitle').innerText = name;
+        document.getElementById('detailIcon').src = icon;
+        document.getElementById('detailDescription').innerText = description;
+
+        popup.style.display = "block"; // Show before animation starts
+        setTimeout(() => {
+            popup.classList.add('show');
+        }, 10); // Slight delay to trigger CSS transition
+
+        document.body.classList.add('blurred-background');
+    }
+
+    function closeDetails() {
+        let popup = document.getElementById('industryDetail');
+        popup.classList.remove('show');
+        popup.classList.add('hide');
+
+        setTimeout(() => {
+            popup.style.display = "none"; // Hide after animation ends
+            popup.classList.remove('hide');
+            document.body.classList.remove('blurred-background');
+        }, 500); // Match transition duration
+    }
+</script>

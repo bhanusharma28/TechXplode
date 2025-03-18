@@ -77,5 +77,10 @@ namespace PortfolioFrontend.Controllers
 		{
 			return View();
 		}
+
+		public IActionResult IndustriesWeServe()
+		{
+			return View();
+		}
 	}
 }
