@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\TechXplodeWebLogoNew.png"
     },
     {
+      "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\circuit-board.gif",
+      "PackagePath": "staticwebassets\\circuit-board.gif"
+    },
+    {
       "Id": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

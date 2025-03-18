@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WQTKsM8YNSRkdhAaJIicjkaDtT7G+fNWepjKXQ60BHA=",
+  "Hash": "hfnZDz6U6DPHPvniEx+Ir1I+CwLRHx/wz+fXa/pYSlY=",
   "Source": "PortfolioFrontend",
   "BasePath": "_content/PortfolioFrontend",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Preparation\\PortfolioFrontend - Copy\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PortfolioFrontend.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\circuit-board.gif",
+      "SourceId": "PortfolioFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\",
+      "BasePath": "_content/PortfolioFrontend",
+      "RelativePath": "circuit-board#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fkyrdsw6g4",
+      "Integrity": "v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\circuit-board.gif"
     },
     {
       "Identity": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",
@@ -1362,6 +1383,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "circuit-board.fkyrdsw6g4.gif",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\circuit-board.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1284959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 17:17:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkyrdsw6g4"
+        },
+        {
+          "Name": "label",
+          "Value": "circuit-board.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k="
+        }
+      ]
+    },
+    {
+      "Route": "circuit-board.gif",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\circuit-board.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1284959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 17:17:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k="
+        }
+      ]
+    },
     {
       "Route": "css/site.css",
       "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",

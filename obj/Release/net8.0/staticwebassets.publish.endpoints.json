@@ -249,6 +249,88 @@
       ]
     },
     {
+      "Route": "circuit-board.fkyrdsw6g4.gif",
+      "AssetFile": "circuit-board.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1284959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 17:17:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkyrdsw6g4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k="
+        },
+        {
+          "Name": "label",
+          "Value": "circuit-board.gif"
+        }
+      ]
+    },
+    {
+      "Route": "circuit-board.gif",
+      "AssetFile": "circuit-board.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1284959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 17:17:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v4RioLKMrwUNHJPyI6w/mD21EY6s0PQCN1zMTCVfs9k="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "css/site.css",
       "Selectors": [],

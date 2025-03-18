@@ -7,8 +7,37 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PortfolioFrontend.styles.css" asp-append-version="true" />
+    <style>
+        #loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+        }
+    </style>
 </head>
 <body>
+    <!-- Loading animation -->
+    <div id="loading" style="display:none;">
+        <img src="~/circuit-board.gif" alt="Loading..." />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Show loading animation on page load
+            $("#loading").show();
+
+            // Hide loading animation once page is fully loaded
+            $(window).on('load', function () {
+                $("#loading").hide();
+            });
+        });
+    </script>
+
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color: #12192c;">
             <div class="container-fluid">
