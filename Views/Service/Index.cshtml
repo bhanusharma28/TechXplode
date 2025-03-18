@@ -44,13 +44,13 @@
     }
 </style>
 
-<div class="container mt-5 animated">
-    <div class="text-center mb-5">
+<div class="container mt-5">
+    <div class="text-center mb-5 animated">
         <h1 class="fw-bold">Our Services</h1>
         <p class="lead">We specialize in Web and App Development using modern technologies to build scalable and efficient solutions.</p>
     </div>
 
-    <div class="row g-2 g-md-3 text-center">
+    <div class="row g-2 g-md-3 text-center animated">
         @foreach (var service in new[] {
         new { Name = "Website Development", Image = "https://cdn-icons-png.flaticon.com/512/6132/6132221.png", Url = "service/webdevelopment", Desc = "We build responsive and scalable websites using .NET, Angular, React, and PHP." },
         new { Name = "Application Development", Image = "https://iconape.com/wp-content/png_logo_vector/flutter-logo.png", Url = "service/appdevelopment", Desc = "We build robust mobile apps using Flutter and other cross-platform technologies." },
@@ -60,7 +60,7 @@
         new { Name = "SEO Optimization", Image = "https://cdn-icons-png.flaticon.com/512/2991/2991148.png", Url = "service/seooptimization", Desc = "We enhance your website’s visibility with proven SEO strategies." }
         })
         {
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 animated">
                 <div class="card p-2 h-100" onclick="animateCardAndRedirect('@service.Url', this)">
                     <div class="text-center">
                         <img src="@service.Image" class="card-img-top img-fluid" alt="@service.Name">

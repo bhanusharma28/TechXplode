@@ -2,14 +2,14 @@
     ViewBag.Title = "Industries We Serve";
 }
 
-<div class="container animated">
-    <h2 class="text-center mb-4">Industries We Serve</h2>
+<div class="container">
+    <h2 class="text-center mb-4 animated">Industries We Serve</h2>
 
-    <p class="lead text-center">
+    <p class="lead text-center animated">
         We provide tailored digital solutions across various industries to help businesses thrive in the modern world.
     </p>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center animated">
         @{
             var industries = new List<dynamic> {
         new { Name = "Real Estate", Icon = "https://cdn-icons-png.flaticon.com/512/2238/2238337.png", Description = "We offer innovative digital solutions for the real estate industry, helping businesses streamline property management and enhance customer engagement." },
@@ -31,7 +31,7 @@
 
         @foreach (var industry in industries.Select((value, index) => new { index, value }))
         {
-            <div class="col-6 col-md-4 text-center mb-4">
+            <div class="col-6 col-md-4 text-center mb-4 animated">
                 <div class="industry-card heartbeat" style="animation-delay: @((industry.index % 5) * 0.2)s;" onclick="showDetails('@industry.value.Name', '@industry.value.Icon', '@industry.value.Description')">
                     <img src="@industry.value.Icon" alt="@industry.value.Name">
                     <h5>@industry.value.Name</h5>
