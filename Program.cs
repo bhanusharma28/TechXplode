@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using PortfolioFrontend.Data;
+using PortfolioFrontend.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<EmailService>();
 
 builder.Services.AddDbContext<TechXplodeDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("TechXplodeConStr")));
