@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ignur2XmgVqHl1RTlL0mRJkqubXFl5wCfbdLyvHvrJY=",
+  "Hash": "ZgS8/8Ybi6N3EnAKXJ6z7oXpL1MWLmX8XFpB5QiUZK0=",
   "Source": "PortfolioFrontend",
   "BasePath": "_content/PortfolioFrontend",
   "Mode": "Default",
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yi50psstqq",
-      "Integrity": "+sSfnF+kJFdGw9I/0NhrjsKnZLwvQs7xlbwYYlcYNTg=",
+      "Fingerprint": "2sp8skh2hk",
+      "Integrity": "fs8550DhV8Lsd1WKsSilY/RKqAOBU9gHb8cP0Tnx0JE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2292,6 +2292,51 @@
       ]
     },
     {
+      "Route": "css/site.2sp8skh2hk.css",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fs8550DhV8Lsd1WKsSilY/RKqAOBU9gHb8cP0Tnx0JE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 10:57:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2sp8skh2hk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fs8550DhV8Lsd1WKsSilY/RKqAOBU9gHb8cP0Tnx0JE="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2302,7 +2347,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1487"
+          "Value": "1554"
         },
         {
           "Name": "Content-Type",
@@ -2310,11 +2355,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+sSfnF+kJFdGw9I/0NhrjsKnZLwvQs7xlbwYYlcYNTg=\""
+          "Value": "\"fs8550DhV8Lsd1WKsSilY/RKqAOBU9gHb8cP0Tnx0JE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:44:28 GMT"
+          "Value": "Wed, 19 Mar 2025 10:57:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2324,52 +2369,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+sSfnF+kJFdGw9I/0NhrjsKnZLwvQs7xlbwYYlcYNTg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.yi50psstqq.css",
-      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1487"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+sSfnF+kJFdGw9I/0NhrjsKnZLwvQs7xlbwYYlcYNTg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:44:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yi50psstqq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+sSfnF+kJFdGw9I/0NhrjsKnZLwvQs7xlbwYYlcYNTg="
+          "Value": "sha256-fs8550DhV8Lsd1WKsSilY/RKqAOBU9gHb8cP0Tnx0JE="
         }
       ]
     },

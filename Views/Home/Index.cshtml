@@ -43,6 +43,22 @@
             height: auto;
             border-radius: 10px;
         }
+
+    .gradient-text {
+        background: linear-gradient(45deg, #ff8a00, #e52e71, #007bff, #00bcd4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+
+    .cursor {
+        display: inline-block;
+        font-weight: bold;
+        color: #007bff;
+        animation: blink 0.8s infinite;
+    }
+
+
 </style>
 
 <div class="container text-center">
@@ -50,6 +66,10 @@
     <div class="mb-5 animated">
         <h1 class="fw-bold" style="text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);">Welcome to <span class="text-primary">TechXplode</span>!</h1>
         <p class="lead text-muted">Innovating the Future with Cutting-Edge Technology & Scalable Solutions</p>
+        <p class="fw-bold" style="font-size:30px;">
+            We specialize in <span id="dynamic-text"></span><span class="cursor">|</span>
+        </p>
+
         <div class="image-container">
             <img style="height:300px; width:300px;" src="~/computer.gif" alt="Tech Image 1">
         </div>
@@ -247,3 +267,50 @@
         </div>
     </div>
 </div>
+
+<script>
+            document.addEventListener("DOMContentLoaded", function () {
+        const words = [
+            "Website Development",
+            "Application Development",
+            "Cloud Solutions",
+            "Database Management",
+            "E-commerce Solutions",
+            "SEO Optimization"
+        ];
+
+        let index = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const textElement = document.getElementById("dynamic-text");
+
+        function typeEffect() {
+            const currentWord = words[index];
+            if (isDeleting) {
+                textElement.textContent = currentWord.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                textElement.textContent = currentWord.substring(0, charIndex + 1);
+                charIndex++;
+                textElement.classList.add("gradient-text");
+            }
+
+            let speed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && charIndex === currentWord.length) {
+                speed = 1500; // Pause before deleting
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                index = (index + 1) % words.length;
+                speed = 500; // Pause before typing new word
+            }
+
+            setTimeout(typeEffect, speed);
+        }
+
+        typeEffect();
+    });
+
+
+</script>
