@@ -11,6 +11,22 @@
       "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\service\\databasemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\service\\databasemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -21,18 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\service\\cloudsolutions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\service\\ecommercesolutions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\service\\ecommercesolutions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\service\\databasemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\service\\databasemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\service\\appdevelopment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -99,13 +99,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEEAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T09:32:45.888Z"
             },
@@ -117,7 +117,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIwAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAJ0AAAC4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-16T08:33:54.001Z",
               "EditorCaption": ""
@@ -136,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IndustriesWeServe.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Home\\IndustriesWeServe.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\IndustriesWeServe.cshtml",
@@ -144,12 +144,11 @@
               "RelativeToolTip": "Views\\Home\\IndustriesWeServe.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T11:00:22.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T11:00:22.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "DatabaseManagement.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Service\\DatabaseManagement.cshtml",
               "RelativeDocumentMoniker": "Views\\Service\\DatabaseManagement.cshtml",
@@ -161,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -169,8 +168,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAEcAAAAAAAAAAAAwwF0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-18T09:25:05.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T09:25:05.615Z"
             },
             {
               "$type": "Document",
@@ -180,26 +178,26 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Home\\Index.cshtml*",
               "RelativeToolTip": "Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAAABYBAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T09:27:49.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAgwI0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-16T08:53:58.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -211,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CloudSolutions.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Service\\CloudSolutions.cshtml",
               "RelativeDocumentMoniker": "Views\\Service\\CloudSolutions.cshtml",
@@ -235,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EcommerceSolutions.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Service\\EcommerceSolutions.cshtml",
               "RelativeDocumentMoniker": "Views\\Service\\EcommerceSolutions.cshtml",
@@ -247,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "WebDevelopment.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Service\\WebDevelopment.cshtml",
               "RelativeDocumentMoniker": "Views\\Service\\WebDevelopment.cshtml",
@@ -259,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SeoOptimization.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Service\\SeoOptimization.cshtml",
               "RelativeDocumentMoniker": "Views\\Service\\SeoOptimization.cshtml",
