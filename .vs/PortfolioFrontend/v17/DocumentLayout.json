@@ -183,8 +183,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAFwAAAAAAAAAAAAiwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-18T09:25:05.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T09:25:05.615Z"
             },
             {
               "$type": "Document",
@@ -194,7 +193,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAmwD0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAmwLsAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T09:27:49.104Z",
               "EditorCaption": ""
