@@ -59,7 +59,7 @@
     }
 
     .carousel-container {
-        /* overflow: hidden; */
+        overflow: hidden;
         position: relative;
         width: 100%;
         padding: 20px 0;
@@ -83,7 +83,7 @@
 
     .tech-item img {
         width: 100px;
-        height: 100px;;
+        height: 100px;
     }
 </style>
 
@@ -157,9 +157,9 @@
     </div>
 
     <h2 class="fw-bold text-danger">Technology We Use</h2>
+    <div class="container">
     <div class="carousel-container">
-        <div class="carousel-track">
-            <!-- Original set -->
+        <div class="d-flex flex-nowrap carousel-track">
             <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C#"></div>
             <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET"></div>
             <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React"></div>
@@ -176,6 +176,7 @@
             <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/873/873107.png" alt="Microsoft Azure"></div>
             <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google Analytics"></div>
 
+            <!-- Duplicate to create infinite loop effect -->
             <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C#"></div>
             <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET"></div>
             <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React"></div>
@@ -193,6 +194,7 @@
             <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google Analytics"></div>
         </div>
     </div>
+</div>
 
     <!-- Add Image for Tech Solutions -->
     @* <div class="image-container">
