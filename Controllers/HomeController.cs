@@ -115,7 +115,6 @@ namespace PortfolioFrontend.Controllers
 						<div class='footer'>
 							<p>Thanks & Regards,</p>
 							<p><strong>TechXplode</strong></p>
-							<img src='{logoUrl}' alt='Company Logo' style=""width: 200px; height: 60px; object-fit: cover;"" />
 						</div>
 					</div>
 				</body>

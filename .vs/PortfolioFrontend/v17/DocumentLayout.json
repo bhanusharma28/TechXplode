@@ -119,8 +119,7 @@
               "RelativeToolTip": "Service\\EmailService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T18:42:23.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T18:42:23.066Z"
             },
             {
               "$type": "Document",
@@ -132,8 +131,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwBQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-19T18:38:31.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T18:38:31.71Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAHIAAAAAAAAAAAAqwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T08:33:54.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T08:33:54.001Z"
             },
             {
               "$type": "Document",
@@ -180,7 +177,7 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFwAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T10:59:37.185Z",
               "EditorCaption": ""
@@ -231,8 +228,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAJkAAAAAAAAAAAAmwLsAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T09:27:49.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T09:27:49.104Z"
             },
             {
               "$type": "Document",
@@ -256,8 +252,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T07:24:06.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T07:24:06.131Z"
             },
             {
               "$type": "Document",
@@ -293,8 +288,7 @@
               "RelativeToolTip": "Views\\Service\\EcommerceSolutions.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T13:18:23.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T13:18:23.364Z"
             },
             {
               "$type": "Document",
@@ -306,8 +300,7 @@
               "RelativeToolTip": "Views\\Service\\WebDevelopment.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T13:18:38.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T13:18:38.727Z"
             },
             {
               "$type": "Document",
@@ -319,8 +312,7 @@
               "RelativeToolTip": "Views\\Service\\SeoOptimization.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T10:36:19.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T10:36:19.906Z"
             },
             {
               "$type": "Document",
@@ -332,8 +324,7 @@
               "RelativeToolTip": "Controllers\\ServiceController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAswAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T07:24:38.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T07:24:38.333Z"
             }
           ]
         }
