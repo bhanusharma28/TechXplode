@@ -7,10 +7,10 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-        .card:hover {
-            transform: scale(1.02);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
+    .card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
 
     .btn-primary {
         background: linear-gradient(to right, #ff512f, #dd2476);
@@ -29,20 +29,20 @@
         color: white;
     }
 
-        .btn-industry:hover {
-            color: white;
-        }
+    .btn-industry:hover {
+        color: white;
+    }
 
     .image-container {
         text-align: center;
         margin-bottom: 30px;
     }
 
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 
     .gradient-text {
         background: linear-gradient(45deg, #ff8a00, #e52e71, #007bff, #00bcd4);
@@ -58,7 +58,33 @@
         animation: blink 0.8s infinite;
     }
 
+    .carousel-container {
+        /* overflow: hidden; */
+        position: relative;
+        width: 100%;
+        padding: 20px 0;
+        white-space: nowrap;
+    }
 
+    .carousel-track {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        width: max-content;
+        animation: scroll 20s linear infinite;
+    }
+
+    .tech-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: none; /* Prevents stretching */
+    }
+
+    .tech-item img {
+        width: 100px;
+        height: 100px;;
+    }
 </style>
 
 <div class="container text-center">
@@ -127,6 +153,44 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <h2 class="fw-bold text-danger">Technology We Use</h2>
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <!-- Original set -->
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C#"></div>
+            <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React"></div>
+            <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/888/888859.png" alt="HTML"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="CSS"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="JavaScript"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" alt="PHP"></div>
+            <div class="tech-item"><img src="https://iconape.com/wp-content/png_logo_vector/flutter-logo.png" alt="Flutter"></div>
+            <div class="tech-item"><img src="https://www.vectorlogo.zone/logos/android/android-icon.svg" alt="Android"></div>
+            <div class="tech-item"><img src="https://cdn.worldvectorlogo.com/logos/shopify.svg" alt="Shopify"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/174/174881.png" alt="WordPress"></div>
+            <div class="tech-item"><img src="https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg" alt="AWS"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/873/873107.png" alt="Microsoft Azure"></div>
+            <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google Analytics"></div>
+
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C#"></div>
+            <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React"></div>
+            <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/888/888859.png" alt="HTML"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="CSS"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="JavaScript"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" alt="PHP"></div>
+            <div class="tech-item"><img src="https://iconape.com/wp-content/png_logo_vector/flutter-logo.png" alt="Flutter"></div>
+            <div class="tech-item"><img src="https://www.vectorlogo.zone/logos/android/android-icon.svg" alt="Android"></div>
+            <div class="tech-item"><img src="https://cdn.worldvectorlogo.com/logos/shopify.svg" alt="Shopify"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/174/174881.png" alt="WordPress"></div>
+            <div class="tech-item"><img src="https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg" alt="AWS"></div>
+            <div class="tech-item"><img src="https://cdn-icons-png.flaticon.com/512/873/873107.png" alt="Microsoft Azure"></div>
+            <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google Analytics"></div>
         </div>
     </div>
 
@@ -310,6 +374,20 @@
 
         typeEffect();
     });
+</script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const track = document.querySelector(".carousel-track");
+        const items = [...track.children];
+
+        // Clone items to fill more than twice the screen width
+        while (track.scrollWidth < window.innerWidth * 2) {
+            items.forEach(item => {
+                const clone = item.cloneNode(true);
+                track.appendChild(clone);
+            });
+        }
+    });
 
 </script>
