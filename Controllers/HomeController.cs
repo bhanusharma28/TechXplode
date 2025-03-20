@@ -21,8 +21,14 @@ namespace PortfolioFrontend.Controllers
 		}
 
         public IActionResult Index()
-        {
-            return View();
+		{
+			string baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host}";
+			ViewBag.Title = "TechXplode";
+			ViewBag.OGTitle = "TechXplode";
+			ViewBag.OGDescription = "Welcome to TechXplode!";
+			ViewBag.OGImage = $"{baseUrl}/TechXplodeWebLogoNew.png";
+			ViewBag.OGUrl = $"{baseUrl}/{Request.Path}";
+			return View();
         }
 
         public IActionResult Privacy()

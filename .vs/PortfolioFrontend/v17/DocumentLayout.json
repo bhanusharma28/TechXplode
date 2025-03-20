@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{752D2D30-3EBC-4AEF-BF5F-EE7A6C5FCF10}|PortfolioFrontend.csproj|d:\\preparation\\portfoliofrontend - copy\\views\\service\\ecommercesolutions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "Service\\EmailService.cs",
@@ -119,11 +119,12 @@
               "RelativeToolTip": "Service\\EmailService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T18:42:23.066Z"
+              "WhenOpened": "2025-03-19T18:42:23.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -159,15 +160,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAqwHwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T08:33:54.001Z"
+              "WhenOpened": "2025-03-16T08:33:54.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -177,7 +179,7 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\Preparation\\PortfolioFrontend - Copy\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwBkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T10:59:37.185Z",
               "EditorCaption": ""
@@ -244,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Preparation\\PortfolioFrontend - Copy\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
