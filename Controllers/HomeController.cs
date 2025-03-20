@@ -26,7 +26,7 @@ namespace PortfolioFrontend.Controllers
 			ViewBag.Title = "TechXplode";
 			ViewBag.OGTitle = "TechXplode";
 			ViewBag.OGDescription = "Welcome to TechXplode!";
-			ViewBag.OGImage = $"{baseUrl}/TechXplodeWebLogoNew.png";
+			ViewBag.OGImage = $"{baseUrl}/TechXplodeLogo.png";
 			ViewBag.OGUrl = $"{baseUrl}/{Request.Path}";
 			return View();
         }

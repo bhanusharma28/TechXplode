@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xfNqUToqI5NAY1lVqsdU9xFekg/qm05zKA+0fthOROQ=",
+  "Hash": "QrZE1+HwvRhFxkojhaIyQgcTMOrn9Ud2gJzGyDUQyKM=",
   "Source": "PortfolioFrontend",
   "BasePath": "_content/PortfolioFrontend",
   "Mode": "Default",
@@ -1569,6 +1569,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\tech-support.gif"
+    },
+    {
+      "Identity": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeLogo.png",
+      "SourceId": "PortfolioFrontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\",
+      "BasePath": "_content/PortfolioFrontend",
+      "RelativePath": "TechXplodeLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fbz7yxyvd5",
+      "Integrity": "desYrVjUz+PFII5U5i7WwCZlx/GwT1MjH+LUYoqeWqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TechXplodeLogo.png"
     },
     {
       "Identity": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeWebLogo.png",
@@ -7700,6 +7721,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-SK/8N4Vpffr6BuBqhr7DE5u1LcgCtiuKQSSYdt5Q9SM="
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeLogo.fbz7yxyvd5.png",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"desYrVjUz+PFII5U5i7WwCZlx/GwT1MjH+LUYoqeWqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fbz7yxyvd5"
+        },
+        {
+          "Name": "label",
+          "Value": "TechXplodeLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-desYrVjUz+PFII5U5i7WwCZlx/GwT1MjH+LUYoqeWqM="
+        }
+      ]
+    },
+    {
+      "Route": "TechXplodeLogo.png",
+      "AssetFile": "D:\\Preparation\\PortfolioFrontend - Copy\\wwwroot\\TechXplodeLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"desYrVjUz+PFII5U5i7WwCZlx/GwT1MjH+LUYoqeWqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 09:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-desYrVjUz+PFII5U5i7WwCZlx/GwT1MjH+LUYoqeWqM="
         }
       ]
     },
