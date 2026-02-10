@@ -24,7 +24,8 @@ namespace PortfolioFrontend.Service
 			{
 				Port = port,
 				Credentials = new NetworkCredential(username, password),
-				EnableSsl = enableSSL
+				EnableSsl = enableSSL,
+				Timeout = 20000
 			};
 
 			var mailMessage = new MailMessage
